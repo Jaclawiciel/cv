@@ -1,0 +1,188 @@
+/*** FONTS ***/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i&subset=latin-ext');
+
+/*** COLORS ***/
+:root {
+    --fontColor: #878787;
+    --grey: #BCBBC0;
+    --gradientLeft: #FAD961;
+    --gradientCenter: #F5A623;
+    --gradientRight: #F76B1C;
+}
+
+
+
+/*** GENERAL ***/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--fontColor);
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p, li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+b {
+    color: var(--gradientCenter);
+}
+
+i {
+    color: var(--gradientCenter);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fontColor);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*** HEADER ***/
+
+header {
+    text-align: left;
+    width: 100%;
+}
+
+.header-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 10px 0 0;
+}
+
+header h2 {
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0;
+}
+
+.gradient-border {
+    margin: 15px auto 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(left, var(--gradientLeft), var(--gradientRight));
+    background: -webkit-linear-gradient(left, var(--gradientLeft), var(--gradientRight));
+}
+
+
+
+
+
+/* CONTACT INFO */
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info a {
+    color: var(--gradientCenter);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    margin-right: 20px;
+}
+
+.contact-info span.phone a {
+    background-image: url('../../img/phone.png');
+}
+
+.contact-info span.mail a {
+    background-image: url('../../img/mail.png');
+}
+
+.contact-info span.website a {
+    background-image: url('../../img/browser.png');
+}
+
+/*** CONTENT ***/
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* DESCRIPTION */
+
+.description {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    width: 90%;
+}
+
+.description > * {
+    margin: 0 20px;
+}
+
+.description img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.description p {
+    width: 80%;
+    text-align: left;
+}
+
+/*** Lists ***/
+
+.informacje {
+    text-align: left;
+}
+
+.informacje h3 {
+    letter-spacing: 2px;
+}
+
+#historia {
+    margin-top: 200px;
+}
+
+#historia ul, #wyksztalcenie ul {
+    list-style: decimal;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 380px auto 0px;
+    width: 90%;
+
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #ccc;
+}
+
+/* Sticky Footer */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
