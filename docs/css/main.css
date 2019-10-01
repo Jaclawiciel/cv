@@ -101,15 +101,15 @@ header h2 {
 }
 
 .contact-info span.phone a {
-    background-image: url('../../img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .contact-info span.mail a {
-    background-image: url('../../img/mail.png');
+    background-image: url('../img/mail.png');
 }
 
 .contact-info span.website a {
-    background-image: url('../../img/browser.png');
+    background-image: url('../img/browser.png');
 }
 
 /*** CONTENT ***/
