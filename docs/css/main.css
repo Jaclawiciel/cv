@@ -151,10 +151,6 @@ header h2 {
     letter-spacing: 2px;
 }
 
-#historia {
-    margin-top: 200px;
-}
-
 #historia ul, #wyksztalcenie ul {
     list-style: decimal;
 }
