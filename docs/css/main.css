@@ -83,6 +83,10 @@ header h2 {
     background: -webkit-linear-gradient(left, var(--gradientLeft), var(--gradientRight));
 }
 
+.company-logo img {
+    max-width: 100px;
+}
+
 
 
 
