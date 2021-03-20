@@ -87,6 +87,10 @@ header h2 {
     max-width: 100px;
 }
 
+.company-logo.noblesoft img {
+    max-width: 300px;
+}
+
 
 
 
@@ -185,4 +189,23 @@ body {
 
 .content {
     flex: 1 0 auto;
+}
+
+
+@media (max-width: 600px) {
+    .description {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .description img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .description p {
+        margin: 0;
+        width: 100%;
+    }
 }
