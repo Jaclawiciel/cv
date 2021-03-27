@@ -91,6 +91,11 @@ header h2 {
     max-width: 300px;
 }
 
+.company-logo.crafton svg {
+    max-width: 150px;
+    height: 60px;
+}
+
 
 
 
